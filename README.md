@@ -34,4 +34,4 @@ before DATA has been sent.
 
 ### Notes
 
-There should be packages for debian, ubuntu, openSUSE, Solaris (OpenCSW), gentoo, FreeBSD (ports)
+There should be packages for debian, ubuntu, openSUSE, Solaris (OpenCSW), gentoo, FreeBSD (ports), NetBSD
