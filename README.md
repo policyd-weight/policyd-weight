@@ -20,3 +20,13 @@ before DATA has been sent.
 4. Create a systemd-unit-file that executes <b>/usr/bin/policyd-weight start</b> as user polw
 5. Modify /etc/policyd-weight.conf to squit your needs
 6. run systemctl start policyd-weight
+7. add following to postfix' main.cf:
+
+```
+    smtpd_recipient_restrictions =
+        permit_mynetworks,
+        ...
+        reject_unauth_destination,
+        check_policy_service inet:127.0.0.1:12525
+        ...
+```
