@@ -31,3 +31,7 @@ before DATA has been sent.
         check_policy_service inet:127.0.0.1:12525
         ...
 ```
+
+### Notes
+
+There should be packages for debian, ubuntu, openSUSE, Solaris (OpenCSW), gentoo, FreeBSD (ports)
