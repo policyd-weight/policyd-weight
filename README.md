@@ -12,16 +12,16 @@ Thus it reduces compute-intensive checks like amavis or rspamd and rejects the m
 before DATA has been sent.
 
 
-### installation (Linux)
+### Installation (Linux, manually)
 
 1. Copy policyd-weight to /usr/bin/
 2. Copy policyd-weight.conf to /etc/
 3. Create a user polw
 4. Create a systemd-unit-file that executes <b>/usr/bin/policyd-weight start</b> as user polw
 5. Modify /etc/policyd-weight.conf to squit your needs
-6. run <b>systemctl start policyd-weight</b>
-7. check with <b>ps xa</b> whether policyd-weight runs
-8. add following to postfix' main.cf:
+6. Run <b>systemctl start policyd-weight</b>
+7. Check with <b>ps xa</b> whether policyd-weight runs
+8. Add following to postfix' main.cf:
 
 ```
     smtpd_recipient_restrictions =
