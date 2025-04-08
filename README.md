@@ -19,8 +19,9 @@ before DATA has been sent.
 3. Create a user polw
 4. Create a systemd-unit-file that executes <b>/usr/bin/policyd-weight start</b> as user polw
 5. Modify /etc/policyd-weight.conf to squit your needs
-6. run systemctl start policyd-weight
-7. add following to postfix' main.cf:
+6. run <b>systemctl start policyd-weight</b>
+7. check with <b>ps xa</b> whether policyd-weight runs
+8. add following to postfix' main.cf:
 
 ```
     smtpd_recipient_restrictions =
