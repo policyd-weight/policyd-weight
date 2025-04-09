@@ -79,7 +79,7 @@ use Carp qw(cluck longmess);
 
 use vars qw($csock $s $tcp_socket $sock $new_sock $old_mtime);
 
-our $VERSION   = "0.1.15 beta-2";
+our $VERSION   = "0.1.15 beta-3";
 our $CVERSION  = 5;                 # cache interface version
 our $CMD_DEBUG = 0;                 # -d switch 
 our $KILL;                          # -k switch
