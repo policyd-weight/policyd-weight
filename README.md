@@ -16,8 +16,8 @@ before DATA has been sent.
 
 ### Installation (Linux, manually)
 
-1. Copy policyd-weight to /usr/bin/
-2. Copy policyd-weight.conf to /etc/
+1. Copy [policyd-weight](https://github.com/policyd-weight/policyd-weight/raw/refs/heads/main/policyd-weight) to /usr/bin/
+2. Copy [policyd-weight.conf](https://github.com/policyd-weight/policyd-weight/raw/refs/heads/main/policyd-weight.conf) to /etc/
 3. Create a user polw
 4. Create a systemd-unit-file that executes <b>/usr/bin/policyd-weight start</b> as user polw
 5. Modify /etc/policyd-weight.conf to suit your needs
