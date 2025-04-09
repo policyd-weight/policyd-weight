@@ -1,3 +1,9 @@
+0.1.15 beta-3
+
+- (maint)    updated contact info
+
+- (maint)    changed shebang from /usr/local/bin/perl to /bin/env perl
+
 0.1.15 beta-2
 
 - (maint)     removed rbl.ipv6-world.net
