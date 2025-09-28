@@ -3,7 +3,7 @@
 
 Public repository of policyd-weight by Robert Felber
 
-Status of the project: abandoned due to time constraints and health issues
+Status of the project: abandoned due to time constraints
 
 Policyd-weight is a postfix policy-server in order to score RBLs and bogus DNS-entries<br>
 from HELO, MAIL FROM and IP at the RCPT TO-stage. It is designed to run on a MX.
